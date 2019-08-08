@@ -1,0 +1,15 @@
+﻿<%@ Master Language="VB" AutoEventWireup="true" CodeBehind="Blank.Master.vb" Inherits="UMSAssetTrack.BlankMaster" %>
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head runat="server">
+    <meta charset="utf-8" />
+    <title><%: Page.Title %> - UMS Asset Track</title>
+    <link href="~/UMSAT.ico" rel="shortcut icon" type="image/x-icon" />
+</head>
+<body>
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder> 
+</body>
+</html>
